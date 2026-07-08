@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+    <html lang="en">
+<head>
+    <!-- ================= META ================= -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ================= SEO ================= -->
+    <title>SoulHacker | Java Backend Developer</title>
+
+    <meta name="title" content="SoulHacker | Java Backend Developer">
+
+    <meta name="description"
+          content="Portfolio of SoulHacker (Baranidharan Jaisankar), a Java Backend Developer specializing in Spring Boot, REST APIs, MySQL, Cloud Computing, and modern backend development.">
+
+    <meta name="keywords"
+          content="SoulHacker, Baranidharan Jaisankar, Java Developer, Spring Boot, Backend Developer, REST API, MySQL, Portfolio, Software Engineer, Cloud Engineer">
+
+    <meta name="author"
+          content="Baranidharan Jaisankar">
+
+    <meta name="robots"
+          content="index, follow">
+
+    <meta name="theme-color"
+          content="#050505">
+
+    <!-- ================= OPEN GRAPH ================= -->
+    <meta property="og:type"
+          content="website">
+
+    <meta property="og:title"
+          content="SoulHacker | Java Backend Developer">
+
+    <meta property="og:description"
+          content="Java Backend Developer specializing in Spring Boot, REST APIs, SQL, Cloud Computing, and scalable backend systems.">
+
+    <!-- Replace after deployment -->
+    <meta property="og:url"
+          content="https://soulhacker.netlify.app">
+
+    <!-- Put preview.png inside your project root -->
+    <meta property="og:image"
+          content="preview.png">
+
+    <!-- ================= TWITTER ================= -->
+    <meta name="twitter:card"
+          content="summary_large_image">
+
+    <meta name="twitter:title"
+          content="SoulHacker | Java Backend Developer">
+
+    <meta name="twitter:description"
+          content="Java Backend Developer Portfolio">
+
+    <meta name="twitter:image"
+          content="preview.png">
+
+    <!-- ================= FAVICON ================= -->
+    <link rel="icon"
+          type="image/png"
+          href="favicon.png">
+
+    <!-- ================= BOX ICONS ================= -->
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css"
+          rel="stylesheet">
+
+    <!-- ================= GOOGLE FONTS ================= -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- ================= CSS ================= -->
+    <link rel="stylesheet"
+          href="styles.css">
+</head>
+    <body>
+        <div class="scroll-indicator" id="scrollIndicator">
+    <svg width="64" height="64">
+        <circle
+            class="bg-circle"
+            cx="32"
+            cy="32"
+            r="26">
+        </circle>
+
+        <circle
+            class="progress-circle"
+            cx="32"
+            cy="32"
+            r="26">
+        </circle>
+    </svg>
+
+    <span>↑</span>
+</div>
+        <div id="loader">
+    <div class="loader-content">
+
+        <div class="loader-logo">
+            BJ
+        </div>
+
+        <h2>Initializing Portfolio</h2>
+
+        <p>Loading projects, skills & experience...</p>
+
+        <div class="loader-bar">
+            <div class="loader-progress"></div>
+        </div>
+
+        <div class="loader-status">
+            Please wait...
+        </div>
+
+    </div>
+</div> 
+        <div class="cursor"></div>
+        <!--===== HEADER =====-->
+   <header class="l-header">
+    <nav class="nav bd-grid">
+
+        <div>
+            <a href="#" class="nav__logo">
+                <span class="mr">Mr</span> SoulHacker
+            </a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+
+            <ul class="nav__list">
+
+                <div class="nav-pill"></div>
+
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active">Home</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">Skills</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#portfolio" class="nav__link">Projects</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+
+    </nav>
+</header>
+        <main class="l-main">
+            <script type="module" defer src="js/hero3d.js"></script>
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="hero3d">
+
+    <canvas id="hero-canvas"></canvas>
+
+</div>
+    <div class="home__container bd-grid">
+
+        <div class="home__content">
+
+            <h1 class="home__title">
+                Baranidharan Jaisankar
+            </h1>
+            
+            <h2 class="home__profession">
+                <span id="role">Java Developer</span>
+            </h2>
+
+            <a href="Resume.pdf"
+               target="_blank"
+               class="magnetic-btn">
+                Get Resume
+            </a>
+
+        </div>
+
+    </div>
+</section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__left">
+                    <div class="about__img">
+                        <img src="Baranidharan Jaisankar Black.png" alt="Portrait of Baranidharan Jaisankar" width="900" height="900" loading="eager" fetchpriority="high">
+                    </div>
+                    <p class="about__text">
+    I build scalable backend applications using <span>Java</span> and
+    <span>Spring Boot</span>, focusing on clean architecture,
+    <span>REST API</span> development, and database integration.
+    Currently expanding my expertise in
+    <span>Google Cloud</span> while creating practical,
+    real-world software solutions through hands-on projects.
+</p></div>
+                    <div class="about__right">
+                <div class="name__content">
+                    <h5 class="about__intro">HELLO, I'M</h5>
+
+<h2 class="about__name">
+    Baranidharan Jaisankar
+</h2>
+
+<h3 class="about__profession">
+    BCA
+</h3>
+</div>
+
+<div class="about__skills">
+    <span>Java</span>
+    <span>Spring Boot</span>
+    <span>REST API</span>
+    <span>MySQL</span>
+    <span>MariaDB</span>
+    <span>Google Cloud</span>
+</div>
+<div class="about__social">
+    <a href="https://www.linkedin.com/in/baranidharanjaisankar   " target="" class="about__social-icon">
+        <i class='bx bxl-linkedin'></i>
+    </a>
+
+    <a href="https://github.com/Mr-SoulHacker" target="_blank" class="about__social-icon">
+        <i class='bx bxl-github'></i>
+    </a>
+
+    <a href="mailto:baranidharanjaisankar@gmail.com" class="about__social-icon">
+        <i class='bx bx-envelope'></i>
+    </a>
+</div>
+</div>
+
+
+
+
+            </section>
+
+            <!--===== SKILLS =====-->
+<!--==================== SKILLS ====================-->
+<section class="skills section" id="skills">
+
+    <h2 class="section-title">Skills</h2>
+
+    <p class="skills__desc">
+        Technologies, frameworks, databases and cloud platforms I use to build
+        scalable backend applications and modern software solutions.
+    </p>
+
+    <div class="skills__grid">
+
+        <!-- Programming -->
+        <div class="skill__card" id="magnetic-btn">
+
+            <h3 class="skill__title">
+                <i class='bx bx-code-alt'></i>
+                Programming
+            </h3>
+
+            <div class="skill__tags">
+                <span>Java</span>
+                <span>JavaScript</span>
+                <span>SQL</span>
+            </div>
+
+        </div>
+
+        <!-- Backend -->
+        <div class="skill__card">
+
+            <h3 class="skill__title">
+                <i class='bx bxs-server'></i>
+                Backend Development
+            </h3>
+
+            <div class="skill__tags">
+                <span>Spring Boot</span>
+                <span>Spring MVC</span>
+                <span>Spring Data JPA</span>
+                <span>Hibernate</span>
+                <span>REST APIs</span>
+            </div>
+
+        </div>
+
+        <!-- Database -->
+        <div class="skill__card">
+
+            <h3 class="skill__title">
+                <i class='bx bx-data'></i>
+                Database Systems
+            </h3>
+
+            <div class="skill__tags">
+                <span>MySQL</span>
+                <span>MariaDB</span>
+                <span>MongoDB</span>
+                <span>PostgreSQL</span>
+            </div>
+
+        </div>
+
+        <!-- Cloud -->
+        <div class="skill__card">
+
+            <h3 class="skill__title">
+                <i class='bx bx-cloud'></i>
+                Cloud Platforms
+            </h3>
+
+            <div class="skill__tags">
+                <span>Google Cloud</span>
+                <span>AWS</span>
+                <span>Microsoft Azure</span>
+                <span>Compute Engine</span>
+                <span>Cloud Storage</span>
+                <span>IAM</span>
+            </div>
+
+        </div>
+
+        <!-- Tools -->
+        <div class="skill__card">
+
+            <h3 class="skill__title">
+                <i class='bx bx-wrench'></i>
+                Developer Tools
+            </h3>
+
+            <div class="skill__tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>Maven</span>
+                <span>Postman</span>
+                <span>VS Code</span>
+                <span>IntelliJ IDEA</span>
+            </div>
+
+        </div>
+
+        <!-- Core Concepts -->
+        <div class="skill__card">
+
+            <h3 class="skill__title">
+                <i class='bx bx-brain'></i>
+                Core Concepts
+            </h3>
+
+            <div class="skill__tags">
+                <span>Object-Oriented Programming</span>
+                <span>DBMS</span>
+                <span>MVC</span>
+                <span>Layered Architecture</span>
+                <span>RESTful Design</span>
+                <span>Clean Code</span>
+            </div>
+
+        </div>      
+
+    </div>
+
+</section>   
+
+            <!--===== PORTFOLIO =====-->
+
+   
+         <section class="portfolio section" id="portfolio">
+ <div class="portfolio-bg"></div>
+
+<div class="particles"></div>
+    <h2 class="section-title">Featured Projects</h2>
+
+    <p class="projects-subtitle">
+        A collection of applications built to solve real-world problems through clean architecture, scalable backend development, and modern web technologies.
+    </p>
+
+<div class="portfolio__container">
+
+    <!-- ================= SENTINEL ================= -->
+
+    <div class="project-card">
+
+        <div class="project-banner">
+    <i class='bx bx-shield-quarter'></i>
+</div>
+
+        <div class="project-overlay">
+
+            <h3>Sentinel</h3>
+
+            <div class="project-features">
+                <p>✓ Real-time incident tracking</p>
+                <p>✓ Emergency response</p>
+                <p>✓ Intelligent REST APIs</p>
+            </div>
+
+            <div class="tech-stack">
+                <span>Java</span>
+                <span>Spring Boot</span>
+                <span>MariaDB</span>
+                <span>REST API</span>
+            </div>
+
+            <div class="project-buttons">
+                <a href="#">GitHub</a>
+                <a href="#">Details</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= MEDIPULSE ================= -->
+
+    <div class="project-card">
+
+        <div class="project-banner">
+    <i class='bx bx-heart-circle'></i>
+</div>
+
+        <div class="project-overlay">
+
+            <h3>MediPulse</h3>
+
+            <div class="project-features">
+                <p>✓ Patient Management</p>
+                <p>✓ Medicine Schedules</p>
+                <p>✓ Notification Support</p>
+            </div>
+
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>Flask</span>
+                <span>SQLite</span>
+            </div>
+
+            <div class="project-buttons">
+                <a href="#">GitHub</a>
+                <a href="#">Details</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= PORTFOLIO ================= -->
+
+    <div class="project-card">
+
+        <div class="project-banner">
+    <i class='bx bx-code-alt'></i>
+</div>
+
+        <div class="project-overlay">
+
+            <h3>Portfolio</h3>
+
+            <div class="project-features">
+                <p>✓ Responsive Design</p>
+                <p>✓ Custom Animations</p>
+                <p>✓ Interactive UI</p>
+            </div>
+
+            <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <div class="project-buttons">
+                <a href="#">GitHub</a>
+                <a href="#">Live</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= COMING SOON ================= -->
+
+    <div class="project-card coming featured">
+
+        <div class="coming-content">
+
+            <div class="rocket">🚀</div>
+
+            <h3>Uploading Soon</h3>
+
+            <p>Building my next enterprise application.</p>
+
+        </div>
+
+    </div>
+
+</div>
+</section>
+        </main>
+<section class="contact section" id="contact">
+
+    <!-- Header -->
+    <div class="contact-header">
+
+        <h2 class="section-title">Contact</h2>
+
+        <p class="contact-subtitle">
+            Ready to build something together? Let's discuss your next project
+            and turn your ideas into reality.
+        </p>
+
+    </div>
+
+    <!-- Main Contact Layout -->
+    <div class="contact-container">
+
+        <!-- LEFT -->
+        <div class="contact-left">
+
+            <div class="contact-glow"></div>
+
+            <h2 class="contact-title">
+                <span>LET'S</span>
+                <span>GET IN</span>
+                <span>TOUCH</span>
+            </h2>
+
+            <div class="contact-shape">
+                <svg viewBox="0 0 100 100">
+                    <circle cx="50" cy="18" r="14"></circle>
+                    <path d="M8 8 A60 60 0 0 1 68 68 L8 68 Z"></path>
+                </svg>
+            </div>
+
+        </div>
+
+        <!-- RIGHT -->
+        <div class="contact-right">
+
+            <form id="contact-form" class="contact-form">
+
+                <!-- Name -->
+                <div class="contact-field">
+                    <label>FULL NAME</label>
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Your name"
+                        required>
+                </div>
+
+                <!-- Email & Phone -->
+                <div class="contact-row">
+
+                    <div class="contact-field">
+                        <label>EMAIL</label>
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="your@email.com"
+                            required>
+                    </div>
+
+                    <div class="contact-field">
+                        <label>PHONE</label>
+                        <input
+                            type="tel"
+                            name="phone"
+                            placeholder="+91 98765 43210">
+                    </div>
+
+                </div>
+
+                <!-- Message -->
+                <div class="contact-field">
+                    <label>MESSAGE</label>
+                    <textarea
+                        name="message"
+                        rows="5"
+                        placeholder="Write your message..."
+                        required></textarea>
+                </div>
+
+                <!-- Send -->
+               <button type="submit" class="send-btn" id="sendBtn">
+
+    <span class="btn-text">
+        <i class='bx bx-right-arrow-alt'></i>
+    </span>
+
+    <span class="btn-loader"></span>
+
+</button>
+
+            </form>
+
+        </div>
+
+    </div>
+    <!-- END contact-container -->
+
+    <!-- Contact Cards -->
+    <div class="contact-info">
+
+        <div>
+            <i class='bx bx-envelope'></i>
+            <h4>EMAIL</h4>
+            <p>@baranidharanjaisankar</p>
+        </div>
+
+        <div>
+            <i class='bx bx-phone'></i>
+            <h4>PHONE</h4>
+            <p>+91 74183 88484</p>
+        </div>
+
+        <div>
+            <i class='bx bxl-linkedin'></i>
+            <h4>LINKEDIN</h4>
+            <p>@baranidharanjaisankar</p>
+        </div>
+
+        <div>
+            <i class='bx bxl-github'></i>
+            <h4>GITHUB</h4>
+            <p>Mr-SoulHacker</p>
+        </div>
+
+        <div>
+            <i class='bx bx-map'></i>
+            <h4>LOCATION</h4>
+            <p>Mayiladuthurai, Tamil Nadu, India</p>
+        </div>
+
+    </div>
+
+</section>
+ 
+        <footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+
+            <h2>Soul<span>Hacker</span></h2>
+        </div>
+
+        <div class="footer-links">
+
+            <div class="footer-column">
+
+                <h4>Navigation</h4>
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#portfolio">Projects</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h4>Contact</h4>
+
+                <a href="mailto:baranidharanjaisnankar@gmail.com">
+                    Email
+                </a>
+
+                <a href="#">
+                    +91 74183 88484
+                </a>
+
+                <a href="#">
+                    Tamil Nadu, India
+                </a>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h4>Follow</h4>
+
+                <a href="#">
+                    GitHub
+                </a>
+
+                <a href="#">
+                    LinkedIn
+                </a>
+
+                <a href="#">
+                    Resume
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Baranidharan Jaisankar.
+            Designed & Developed by Me!.
+        </p>
+
+    </div>
+
+</footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="main.js"></script>
+<div id="toast" class="toast">
+
+    <i id="toast-icon" class='bx bx-check-circle'></i>
+
+    <div class="toast-content">
+
+        <h4 id="toast-title">Success</h4>
+
+        <p id="toast-message">Message sent successfully.</p>
+
+    </div>
+
+</div>
+        <!--===== MAIN JS =====-->
+    </body>
+</html>
