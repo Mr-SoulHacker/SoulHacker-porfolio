@@ -458,15 +458,9 @@ contactForm.addEventListener("submit", function(e){
     e.preventDefault();
 
     const sendBtn = document.querySelector(".send-btn");
-    const originalHTML = sendBtn.innerHTML;
+  
 
-    sendBtn.disabled = true;
-   sendBtn.innerHTML = `
-<div class="send-loading">
-    <i class='bx bx-loader-alt bx-spin'></i>
-    <span>Sending...</span>
-</div>
-`;
+ sendBtn.disabled = true;
     emailjs.sendForm(
         "service_lo7mk7w",
         "template_c0qok9r",
@@ -474,13 +468,12 @@ contactForm.addEventListener("submit", function(e){
     )
     .then(() => {
 
-        sendBtn.innerHTML = "<i class='bx bx-check'></i>";
+       sendBtn.disabled = false;
 
         setTimeout(() => {
 
             contactForm.reset();
 
-            sendBtn.innerHTML = originalHTML;
             sendBtn.disabled = false;
 
             showToast(
