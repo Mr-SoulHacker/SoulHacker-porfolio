@@ -31,7 +31,7 @@ body{
 
     align-items:center;
 
-    cursor:pointer;
+    cursor:none;
 
     z-index:9999;
 
@@ -1300,7 +1300,7 @@ input:-webkit-autofill:focus{
 
     font-size:34px;
 
-    cursor:pointer;
+    :pointer;
 
     transition:.35s;
 }
@@ -1978,7 +1978,7 @@ opacity:.8;
  
 
 
-.cursor{
+.{
     position: fixed;
 
     width: 18px;
@@ -2003,7 +2003,7 @@ opacity:.8;
 
 
 body{
-    cursor: none;
+    : none;
 }
 
 a,
